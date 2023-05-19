@@ -121,7 +121,7 @@ const CMEditViewTranslateLocale = () => {
     >
       <Box paddingBottom={2}>
         <Typography variant="sigma" textColor="neutral600" fontWeight="bold">
-          Translate
+          Google Translate
         </Typography>
       </Box>
       <Box paddingBottom={2}>
@@ -141,9 +141,9 @@ const CMEditViewTranslateLocale = () => {
       <Box paddingTop={2} paddingBottom={4}>
         <Select
           id="select1"
-          placeholder="Select Language"
+          placeholder="Select Language(s)"
           onClear={() => setValues([])}
-          hint="Select Language to Transalate"
+          hint="Select Languages that will be translated from current one. They will be saved automatically. Any previous content will be overwritten."
           clearLabel="Clear the Languages"
           error={error}
           value={values}
