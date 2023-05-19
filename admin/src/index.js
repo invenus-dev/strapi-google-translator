@@ -5,7 +5,7 @@ import Initializer from "./components/Initializer";
 import PluginIcon from "./components/PluginIcon";
 import CMEditViewTranslateLocale from "./components/CMEditViewTranslateLocale";
 
-const name = "Translator";
+const name = "Google Translator";
 
 export default {
   register(app) {
