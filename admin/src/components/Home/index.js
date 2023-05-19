@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <Box>
       <Box paddingTop={6} paddingLeft={7}>
-        <Typography variant="alpha">Translator</Typography>
+        <Typography variant="alpha">Google Translator</Typography>
         <Box>
           <Typography variant="omega">
             Use Translator plugin to easily translate your Strapi content into
